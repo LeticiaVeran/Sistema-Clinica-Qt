@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Desenvolvedor</class>
+ <widget class="QDialog" name="Desenvolvedor">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>651</width>
+    <height>372</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>-20</y>
+     <width>841</width>
+     <height>421</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Sobre o Desenvolvedor:
+Nome: Leticia Damasio Veran
+Matrícula: 24205057
+Curso: Engenharia de Computação
+Universidade: Universidade Federal de Santa Catarina (UFSC)
+
+Contato: 
+E-mail: leticia.veran@grad.ufsc.br
+
+
+Sobre o Projeto: 
+Este sistema de clínica médica foi desenvolvido como projeto final da disciplina de Linguagem de Programação 2.
+O objetivo foi aplicar os conceitos aprendidos em sala de aula em um sistema funcional e completo.
+
+O desenvolvimento deste projeto proporcionou aprendizados significativos em:
+- Aplicação prática de conceitos de POO
+- Desenvolvimento de interfaces gráficas com Qt Creator
+- Programação em C++
+- Persistência de dados
+- Testes e validação de sistemas
+</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>-30</y>
+     <width>211</width>
+     <height>201</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>euProg.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>170</y>
+     <width>151</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>↑ Desenvolvedora ↑</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>versao</class>
+ <widget class="QDialog" name="versao">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>788</width>
+    <height>337</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>10</y>
+     <width>261</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Título: Versão: 1.0.0
+Data de lançamento: Julho/2025
+
+</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignmentFlag::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>70</y>
+     <width>871</width>
+     <height>262</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>Sobre o Sistema: 
+
+- Sistema de gerenciamento para clínica médica 
+- Oferece funcionalidades completas para cadastro e gerenciamento 
+- Gerencia funcionários, médicos, pacientes, remédios, receitas e consultas 
+- Utiliza conceitos de programação orientada a objetos 
+- Implementa herança e polimorfismo 
+- Estrutura eficiente e de fácil manutenção 
+- Interface intuitiva para usuários 
+- Armazenamento seguro de dados</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>Principais funcionalidades:
+
+- Cadastro e gerenciamento de funcionários e médicos
+- Cadastro e gerenciamento de pacientes
+- Cadastro e gerenciamento de medicamentos
+- Emissão de receitas médicas
+- Agendamento e controle de consultas
+- Visualização da agenda diária</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>370</y>
+     <width>160</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2"/>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

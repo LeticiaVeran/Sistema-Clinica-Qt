@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Menu</class>
+ <widget class="QMainWindow" name="Menu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>464</width>
+    <height>379</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Menu</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>10</y>
+      <width>171</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>Consultas do Dia:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QDateEdit" name="dataconsultas"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QListWidget" name="listaconsultas">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>80</y>
+      <width>441</width>
+      <height>192</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>280</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Atualizar</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>464</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuMenu">
+    <property name="title">
+     <string>Menu</string>
+    </property>
+    <addaction name="actionFuncion_rios"/>
+    <addaction name="actionPacientes"/>
+    <addaction name="separator"/>
+    <addaction name="actionRem_dios"/>
+    <addaction name="action_consultas"/>
+    <addaction name="separator"/>
+    <addaction name="actionReceitas"/>
+   </widget>
+   <widget class="QMenu" name="menuSobre">
+    <property name="title">
+     <string>Sobre</string>
+    </property>
+    <addaction name="actionDesenvolvedor"/>
+    <addaction name="actionVers_o"/>
+   </widget>
+   <addaction name="menuMenu"/>
+   <addaction name="menuSobre"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionFuncion_rios">
+   <property name="text">
+    <string>Funcionários</string>
+   </property>
+  </action>
+  <action name="actionPacientes">
+   <property name="text">
+    <string>Pacientes</string>
+   </property>
+  </action>
+  <action name="actionRem_dios">
+   <property name="text">
+    <string>Remédios</string>
+   </property>
+  </action>
+  <action name="action_consultas">
+   <property name="text">
+    <string>Consultas</string>
+   </property>
+  </action>
+  <action name="actionReceitas">
+   <property name="text">
+    <string>Receitas</string>
+   </property>
+  </action>
+  <action name="actionDesenvolvedor">
+   <property name="text">
+    <string>Desenvolvedor</string>
+   </property>
+  </action>
+  <action name="actionVers_o">
+   <property name="text">
+    <string>Versão</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
